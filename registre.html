@@ -16,7 +16,21 @@
            </li>
        </ul>
        </nav>
+       <form action="registre.html"method="GET">
     <h1>Exercici Formulari</h1>
+       <td><label >Nom:</label><input class="controles" type="text" name="nom" placeholder="Escriu el teu nom" required></td>
+       <td><label >Cognom:</label><input class="controles" type="text" name="cognom" placeholder="Escriu el teu cognom" required></td>
+       <p><label>Sexe:
+            <input type="radio" name="hm" value="h">Home
+            <input type="radio" name="hm" value="m">Dona
+            <input type="radio" name="hm" value="m">Altre
+        </label></p>
+       <input class="controles" type="email" name="correu" placeholder="Escriu el teu correu" required>
+       <input class="controles" type="password" name="contrasenyas" id="contrasenya" placeholder="Escriu la teva contrasenya" required minlength="5" maxlength="10">
+        <p><label>Data de Naixament: <input type="date" name="" required></label></p>
+        <label>Estic d'acord amb els Terminis<input type="checkbox" name="acord" required></label>
+        <p><input type="submit" name="enviar"value="Registrar"></p>
+    </form>
 </body>
 <nav>
 
