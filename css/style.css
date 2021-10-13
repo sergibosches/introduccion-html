@@ -9,10 +9,10 @@
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px 20px;
-    background-color: brown;
+    background-color: brown ;
 }
 #menu ul li a:hover{
-    background-color: blueviolet;
+    background-color: blueviolet !important;
 }
 .form-register{
     width: 400px;
@@ -21,4 +21,59 @@
     margin: auto;
     margin-top: 100px;
 }
-
+.table{
+    margin-top: 50px;
+    margin-left: 40px;
+    border-color: rgb(150, 0, 0);
+    border-width: 5px;
+    background-color: burlywood;
+}
+.horarioo{
+    background-color: rgb(153, 99, 0);
+    color: rgb(0, 0, 0);
+    border-color: burlywood;
+    border-width: 3px;
+}
+.pati{
+    background-color: rgb(153, 99, 0);
+    color: rgb(0, 0, 0);
+    border-color: burlywood;
+    border-width: 3px;
+}
+.hora{
+    background-color: rgb(153, 99, 0);
+    color: rgb(0, 0, 0);
+    border-color: burlywood;
+    border-width: 3px;
+}
+.dia{
+    background-color: rgb(255, 229, 180);
+    color: rgb(0, 0, 0);
+    border-color: burlywood;
+    border-width: 3px;
+}
+.serveisxarxa{
+    background: rgb(147, 218, 17);
+    border-color: rgb(143, 92, 26);
+    border-width: 3px;
+}
+.seguretat{
+    background: rgb(252, 182, 90);
+    border-color: rgb(143, 92, 26);
+    border-width: 3px;
+}
+.sistemas{
+    background: rgb(252, 108, 108);
+    border-color: rgb(143, 92, 26);
+    border-width: 3px;
+}
+.aplicacions{
+    background: rgb(137, 105, 226);
+    border-color: rgb(143, 92, 26);
+    border-width: 3px;
+}
+.eie{
+    background-color: turquoise;
+    border-color: rgb(143, 92, 26);
+    border-width: 3px;
+}
