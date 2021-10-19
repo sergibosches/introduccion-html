@@ -44,8 +44,7 @@ p{
 
 /*fes que tots els inputs tinguin un border de 3px vermell*/
 input{
-    border-color: red;
-    border-width: 3px;
+    border:red 3px solid
 }
 
 /* fes que tot el que té class 'hello' sigui de fons blanc*/
@@ -55,9 +54,7 @@ input{
 
 /* fes que l'elemnt amb id  'special' tingui un border 2px solid blau selecciona el teu propi rgb blau*/
 #special{
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    border:2px solid rgb(0, 100, 200)
 }
 
 /*Fes que tots els <p>'s que estn dins un div tingin una font de 25px (font-size: 25px)*/
@@ -66,8 +63,8 @@ div p{
 }
 
 /*Fes que només els inputs de type text tenguin un fons gris*/
-input.text{
-    background-color: blue;
+input[type="text"]{
+    background-color: grey;
 }
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
