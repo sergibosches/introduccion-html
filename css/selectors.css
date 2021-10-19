@@ -1,3 +1,22 @@
+/* Menu*/
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 20px;
+    background-color: brown ;
+}
+#menu ul li a:hover{
+    background-color: blueviolet !important;
+}
+
+
 /* dona al <body> element un color de fons de #bdc3c7*/
 body{
     background-color: #bdc3c7;
@@ -52,28 +71,47 @@ input.text{
 }
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
-
+div:nth-of-type(3) p{
+    background-color: pink;
+}
 
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
-
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white
+}
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px)*/
-
+div:nth-of-type(3) em{
+    color: white;
+    font-size: 20px;
+}
 
 
 /*BONUS*/
 /*hauràs de fer recerca*/
 
 /*Fes que tots el "checked" checkboxes tinguin un marge esquerra de 50px(margin-left: 50px)*/
-
+input:checked{
+    margin-left: 50px;
+}
 
 /*Fes que l'etiqueta <label> siguin tots UPPERCASE sense canviar el HTML*/
-
+label{
+    text-transform: uppercase;
+}
 
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
-
+#special::first-letter{
+     color: green;
+     font-size: 100px;
+}
 
 /*Fes que el color de font del <h1> canviï a blau quan el ratolí passi per damuntelement's color change to blue when hovered over */
-
+h1:hover{
+    color:blue
+}
 
 /*Fes que els <a> que hagin estat visitats siguin de color gris */
+a:visited{
+    color:grey
+}
