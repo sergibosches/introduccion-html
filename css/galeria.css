@@ -41,12 +41,12 @@ h1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+    
 }
 .galeria img:hover{
     background: cornflowerblue;
@@ -54,8 +54,8 @@ h1{
 
 
 .galeria img{
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     padding: 2px;
 }
 @media (max-width: 800px){
