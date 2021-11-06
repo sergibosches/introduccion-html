@@ -59,6 +59,43 @@
     color: rgb(0, 0, 0);
 }
 
+.test{
+    font-size: 22px;
+    padding: 16px;
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+
+        background-color: rgb(247, 222, 170);
+    }
+
+    #menu ul li ul{
+        width: 100%;
+        padding: 16px;
+        margin: auto;
+        text-align: left;
+        display: block;
+        position: absolute;
+    }
+
+    #menu{
+        display: block;
+        margin-top: 0px;
+    }
+
+    .test{
+        display: block;
+    }
+
+}
+
+
+/*Final Menu*/
 
 form{
     width: 600px;
@@ -138,13 +175,15 @@ h1{
 }
 img{
     height: 400px;
-    width: 600px;
+    width: 60%;
     justify-content: center;
-    margin-left: 340px;
+    text-align: center;
+    margin: auto 0;
 }
 h3{
     color: gray;
     text-align: center;
     margin-top: 2px;
 }
+
 

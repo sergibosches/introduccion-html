@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>introduccion</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 
@@ -45,6 +46,18 @@
            
         </ul>
     </nav>
+    <div class="test">
+        <i class="fa fa-bars">Menu
+        </i>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(".test").on('click', function(){
+            $("ul li").toggle('slow');
+        })
+
+    </script>
 
     <h1>Aplicacions Webs</h1>
     <h3>SERGI BOSCH ESPIAS</h3>
